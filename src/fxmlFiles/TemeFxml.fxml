@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Services.HomeworkService">
+   <children>
+      <TableView fx:id="tv" layoutX="14.0" layoutY="14.0" prefHeight="500.0" prefWidth="365.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="c1" editable="false" prefWidth="85.0" sortable="false" text="Numar Tema" />
+          <TableColumn fx:id="c2" editable="false" prefWidth="165.0" sortable="false" text="Enunt" />
+            <TableColumn fx:id="c3" editable="false" prefWidth="113.0" sortable="false" text="Termen Limita" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="enunt" editable="false" layoutX="388.0" layoutY="50.0" prefHeight="200.0" prefWidth="402.0" style="-fx-alignment: center;" />
+      <Label layoutX="388.0" layoutY="22.0" text="Enunt:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="399.0" layoutY="444.0" mnemonicParsing="false" onAction="#buttonAdd" style="-fx-background-color: #00ffb9;" text="Adauga">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ComboBox fx:id="termenF" layoutX="399.0" layoutY="309.0" prefWidth="150.0" style="-fx-background-color: #00ffb9;" />
+      <Button layoutX="559.0" layoutY="307.0" mnemonicParsing="false" onAction="#stergeFiltru" style="-fx-background-color: #00ffb9;" text="Sterge Filtru">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Pagination fx:id="pag" layoutX="90.0" layoutY="300.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="300.0" />
+      <Label fx:id="number" layoutX="607.0" layoutY="451.0" text="0" textFill="#00ffb9">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

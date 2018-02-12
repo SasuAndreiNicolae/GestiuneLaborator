@@ -1,0 +1,31 @@
+#reports
+{
+    -fx-background-image: url("reports.png");
+   /* -fx-background-color:transparent;*/
+    -fx-alignment: bottom-center;
+    -fx-text-fill: black;
+}
+#marks
+{
+    -fx-background-image: url("grades.png");
+    -fx-background-color: white;
+    -fx-alignment: bottom-center;
+    -fx-text-fill: black;
+
+}
+#students
+{
+    -fx-background-image: url("students.png");
+    /*-fx-background-color:transparent;*/
+    -fx-alignment: bottom-center;
+    -fx-text-fill: black;
+
+
+}
+#homework
+{
+    -fx-background-image: url("homework.png");
+    /*-fx-background-color:transparent;*/
+    -fx-alignment: bottom-center;
+    -fx-text-fill: black;
+}

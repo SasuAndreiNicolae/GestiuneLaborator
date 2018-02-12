@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="aesPane" fx:id="anchorPane" prefHeight="350.0" prefWidth="400.0" stylesheets="@textFields.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Services.AddEditStudentService">
+   <children>
+      <Label layoutX="70.0" layoutY="81.0" text="Nume:" />
+      <Label layoutX="70.0" layoutY="131.0" text="Grupa:" />
+      <Label layoutX="72.0" layoutY="181.0" text="Email:" />
+      <Label layoutX="72.0" layoutY="232.0" text="Profesor:" />
+      <TextField fx:id="nume" layoutX="138.0" layoutY="77.0" prefHeight="25.0" prefWidth="168.0" styleClass="textField" stylesheets="@textFields.css" />
+      <TextField fx:id="grupa" layoutX="138.0" layoutY="127.0" prefHeight="25.0" prefWidth="168.0" styleClass="textField" stylesheets="@textFields.css" />
+      <TextField fx:id="email" layoutX="138.0" layoutY="177.0" prefHeight="25.0" prefWidth="168.0" styleClass="textField" stylesheets="@textFields.css" />
+      <TextField fx:id="prof" layoutX="138.0" layoutY="228.0" prefHeight="25.0" prefWidth="168.0" styleClass="textField" stylesheets="@textFields.css" />
+      <Button fx:id="action" layoutX="234.0" layoutY="286.0" mnemonicParsing="false" onAction="#pressedButton" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: #00ffb9;" text="Adauga">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="138.0" layoutY="286.0" mnemonicParsing="false" onAction="#anuleaza" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #00ffb9;" text="Anuleaza">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

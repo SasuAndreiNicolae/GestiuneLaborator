@@ -1,0 +1,4 @@
+Adaugare nota Numar tema: 1 Nota obtinuta: 10.0 Termen limita: 13 Saptamana predare: 10 Observatii: Totul a fost in ordine
+Adaugare nota Numar tema: 2 Nota obtinuta: 6.6000004 Termen limita: 11 Saptamana predare: 12 Observatii: Depunctare pentru depasirea termenului de predare cu 1 puncte!
+Adaugare nota Numar tema: 3 Nota obtinuta: 7.0 Termen limita: 11 Saptamana predare: 12 Observatii: Depunctare pentru depasirea termenului de predare cu 1 puncte!
+Adaugare nota Numar tema: 4 Nota obtinuta: 1.0 Termen limita: 10 Saptamana predare: 114 Observatii: S-a acordat nota 1 pentru ca s-a depasit termenul de predare cu mai mult de 2 saptamani!

@@ -1,0 +1,42 @@
+.textField
+{
+
+    -fx-border-width: 1;
+    -fx-background-color:#00ffb9;
+
+    -fx-border-color:#00ffb9;
+    -fx-border-insets: 1;
+    -fx-text-fill:black;
+
+}
+#weeks
+{
+    -fx-background-color: #00ffb9;
+
+}
+.label
+{
+    -fx-text-fill: #00ffb9;
+
+}
+#studentsTV
+{
+    -fx-background-color: #00ffb9;
+
+}
+#studentsTV
+{
+    -fx-background-color: #00ffb9;
+}
+.hiperLink
+{
+    -fx-text-fill: #00ffb9;
+}
+#aehPane
+{
+    -fx-background-image: url("map1.jpg");
+}
+#aesPane
+{
+    -fx-background-image: url("map1.jpg");
+}

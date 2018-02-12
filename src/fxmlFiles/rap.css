@@ -1,0 +1,18 @@
+.b
+{
+    -fx-border-radius: 24 24 24 24;
+    -fx-background-radius: 24 24 24 24;
+}
+.b:hover
+{
+    -fx-border-color:greenyellow;
+}
+.b:pressed
+{
+    -fx-opacity: 0.85;
+}
+#button
+{
+
+    -fx-background-image: url("arrow.png");
+}

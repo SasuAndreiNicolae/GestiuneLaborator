@@ -1,0 +1,27 @@
+#back
+{
+    /*-fx-background-image: url("map.jpg");*/
+    -fx-background-image: url("map1.jpg");
+}
+.b
+{
+    -fx-border-radius: 24 24 24 24;
+    -fx-background-radius: 24 24 24 24;
+}
+.b:hover
+{
+    -fx-border-color:black;
+}
+.b:pressed
+{
+    -fx-opacity: 0.85;
+}
+#button
+{
+
+    -fx-background-image: url("arrow.png");
+}
+#MenuPanePane
+{
+    -fx-background-image: url("map1.jpg");
+}
